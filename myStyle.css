@@ -12,7 +12,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,addre
 body{
 	color: #444444;
 	font: normal normal normal 16px/25px "Georgia", serif;
-	min-width: 60ex;
+	min-width: 90ex;
 	text-align: justify;
 
 	/* BASELINE GRID is 25px */
@@ -414,7 +414,7 @@ footer{
 footer p{
 	color: #000000;
 	font-weight: bold;
-	padding: 1.65em;
+	padding: 0.5em;
 	padding-bottom: 0;
 }
 
@@ -422,10 +422,9 @@ footer>nav.foot{
 	background-color: #cfcd90;
 	border: 1px solid #000000;
 	position: relative;
-	width: 50%;
+	width: 68ex;
 	margin-top: 1em;
 	display: inline-block;
-	float: center;
 }
 
 footer>nav ul.social{
@@ -434,52 +433,45 @@ footer>nav ul.social{
 }
 
 footer>nav>ul.social>li{
+	display: block;
 	float: left;
 	padding: 0.7em;
-	margin-top: -0.5em;
+	margin-top: -0.8em;
+}
+
+footer>nav>ul.social>li>a{
+	display: block;
+	float: center;
+	background-size: 100%;
+	background-position: center;
 }
 
 footer>nav>ul.social>li>a.linkedin{
-	display: inline-block;
 	width: 3rem;
 	height: 3rem;
-	background-size: 100%;
-	background-position: center;
 	background-image: url(images/linkedin.png);
 }
 
 footer>nav>ul.social>li>a.email{
-	display: inline-block;
 	width: 3rem;
 	height: 3rem;
-	background-size: 100%;
-	background-position: center;
 	background-image: url(images/mail.png);
 }
 
 footer>nav>ul.social>li>a.wisc{
-	display: inline-block;
 	width: 2.16rem;
 	height: 3rem;
-	background-size: 100%;
-	background-position: center;
 	background-image: url(images/crest.png);
 }
 
 footer>nav>ul.social>li>a.github{
-	display: inline-block;
 	width: 3rem;
 	height: 3rem;
-	background-size: 100%;
-	background-position: center;
 	background-image: url(images/github.png);
 }
 
 footer>nav>ul.social>li>a.projecteuler{
-	display: inline-block;
 	width: 10rem;
 	height: 3rem;
-	background-size: 100%;
-	background-position: center;
 	background-image: url(https://projecteuler.net/profile/gerglo.png);
 }
