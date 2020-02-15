@@ -40,6 +40,21 @@
 	// Scrollax
    $.Scrollax();
 
+    var wrapPhoto = function() {
+        if($(window).width() < 800) {
+            $('.photowrap_photo').css('width', '100%');
+        } else {
+            $('.photowrap_photo').css('width', '50%');
+        }
+        $(window).resize(function(){
+            if($(window).width() < 800) {
+                $('.photowrap_photo').css('width', '100%');
+            } else {
+                $('.photowrap_photo').css('width', '50%');
+            }
+        });
+    };
+    wrapPhoto();
 
    var burgerMenu = function() {
 

@@ -448,10 +448,11 @@ kbd {
 }
 
 .photowrap_photo {
-  float: left;
+  float: right;
   padding:1px;
-   border:1px solid #021a40;
-   background-color: #fff;
+  border:1px solid #021a40;
+  margin: 10px;
+  background-color: #fff;
   width: 50%;
 }
 
